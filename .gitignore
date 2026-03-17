@@ -1,0 +1,77 @@
+# =========================
+# Xcode
+# =========================
+
+# Build artifacts
+build/
+DerivedData/
+
+# Workspace user data
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Project user data
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# User-specific settings
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# =========================
+# Swift Package Manager
+# =========================
+
+.build/
+.swiftpm/
+
+# Only ignore Package.resolved for libraries
+# Keep it for apps if needed
+# Package.resolved
+
+# =========================
+# CocoaPods (if used)
+# =========================
+
+Pods/
+Podfile.lock
+
+# =========================
+# Carthage (if used)
+# =========================
+
+Carthage/Build/
+
+# =========================
+# Fastlane (optional)
+# =========================
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+
+# =========================
+# Logs & temp
+# =========================
+
+*.log
+*.swp
+*.tmp
+*.lock
+
+# =========================
+# Archives
+# =========================
+
+*.xcarchive
